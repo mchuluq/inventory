@@ -1,0 +1,97 @@
+@CHARSET "ISO-8859-1";
+html, body {
+	color:#515967;
+	text-shadow:0px 1px 1px rgba(0, 0, 0, 0.2);
+	background:url('../images/silver.jpg');
+}
+a,a:link, a:hover,a:active,a:visited {
+	color:#515967;
+}
+.ug-list:hover,.user_app,#second-bar,#rightcontent .module header,#rightcontent .module footer,.ch-table th,.contextMenu,.dragbox h2  {
+	background-color: #eaeaec;
+	background-image: url('../images/textures/highlight.png');
+  	background-image: none, -webkit-linear-gradient(top, rgba(255,255,255,.45) 0%, rgba(255,255,255,0) 100%);
+  	background-image: none, -moz-linear-gradient(top, rgba(255,255,255,.45) 0%, rgba(255,255,255,0) 100%);
+  	background-image: none, -o-linear-gradient(top, rgba(255,255,255,.45) 0%, rgba(255,255,255,0) 100%);
+  	background-image: none, linear-gradient(to bottom, rgba(255,255,255,.45) 0%, rgba(255,255,255,0) 100%);
+}
+.ch-table tbody tr:hover,ul#pagination li a:hover,.dragbox h2.collapse {
+	background-color: #a6afbe;
+  	background-image: url('../images/textures/highlight.png');
+  	background-image: none, -webkit-linear-gradient(top, rgba(255,255,255,.4) 0%, rgba(255,255,255,0) 100%);
+  	background-image: none, -moz-linear-gradient(top, rgba(255,255,255,.4) 0%, rgba(255,255,255,0) 100%);
+  	background-image: none, -o-linear-gradient(top, rgba(255,255,255,.4) 0%, rgba(255,255,255,0) 100%);
+  	background-image: none, linear-gradient(to bottom, rgba(255,255,255,.4) 0%, rgba(255,255,255,0) 100%);
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+}
+ul#pagination li.active {
+	background:#0A7AC2;
+  	color:white;
+}
+
+#form-search input[type=submit]:hover,#form-search input[type=submit]:focus, ul.contextMenu li:hover a {
+	background:#0A7AC2;
+  	color:white;
+}
+#form-search input:hover,#form-search input:focus {
+	border-color: #dbdbde;
+}
+#form-search input    { border-color: rgba(23, 51, 78, 0.15) rgba(23, 51, 78, 0.17) rgba(23, 51, 78, 0.2); }
+    
+ul#pagination li a:hover,table.det-view tr.desc,table.det-view,.ug-list,.ch-table tr th,ul#pagination li.paging_h a,.breadcrumbs, .user_app,#rightcontent .module,.ch-table,.dragbox, ul.last-act li {
+	border:1px solid #dbdbde;
+}
+ul#pagination li.active, ul.contextMenu, ul.dash-alert li {
+	border:1px solid #dbdbde;
+}
+.ch-table tr td{
+	border-left:1px solid #dbdbde;
+}
+
+.dragbox h2,table.det-view h1,#second-bar,#rightcontent .module header,.ch-form legend, table.log-info tr td {
+	border-bottom:1px solid #dbdbde;
+}
+.footer-section,#rightcontent .module footer {
+	border-top:1px solid #dbdbde;
+}
+.breadcrumbs, #leftsider #k-panel ,.user_app,#rightcontent .module, ul.contextMenu,.dragbox{
+	border-radius:3px;
+}
+#rightcontent .module header, ul.contextMenu li:firstchild a{
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+}
+#rightcontent .module footer, ul.contextMenu li:lastchild a{
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+}
+.style-what {
+	border-bottom:1px dashed #dbdbde;
+}
+.ch-table tr.odd {
+	background:#eaeaec;
+}
+.ch-table tr.even,.module,.dragbox {
+	background:#f4f4f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

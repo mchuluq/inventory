@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+/*-----warning animation------*/
+@-moz-keyframes chv-warning{
+	0%{		background-color: #F5F3BA;}
+	50%{	background-color: #C7A20D;}
+	100%{	background-color: #F5F3BA;}
+}
+@-webkit-keyframes chv-warning{
+	0%{		background-color: #F5F3BA;}
+	50%{	background-color: #C7A20D;}
+	100%{	background-color: #F5F3BA;}
+}
+/*-----error animation------*/
+@-moz-keyframes chv-error{
+	0%{		background-color: #F3D9D9;}
+	50%{	background-color: #D20009;}
+	100%{	background-color: #F3D9D9;}
+}
+@-webkit-keyframes chv-error{
+	0%{		background-color: #F3D9D9;}
+	50%{	background-color: #D20009;}
+	100%{	background-color: #F3D9D9;}
+}
+/*-----success animation------*/
+@-moz-keyframes chv-success{
+	0%{		background-color: #E2F6C5;}
+	50%{	background-color: #79C20D;}
+	100%{	background-color: #E2F6C5;}
+}
+@-webkit-keyframes chv-success{
+	0%{		background-color: #E2F6C5;}
+	50%{	background-color: #79C20D;}
+	100%{	background-color: #E2F6C5;}
+}
+/*-----success animation------*/
+@-moz-keyframes chv-info{
+	0%{		background-color: #B5E5EF;}
+	50%{	background-color: #77BACE;}
+	100%{	background-color: #B5E5EF;}
+}
+@-webkit-keyframes chv-info{
+	0%{		background-color: #B5E5EF;}
+	50%{	background-color: #77BACE;}
+	100%{	background-color: #B5E5EF;}
+}

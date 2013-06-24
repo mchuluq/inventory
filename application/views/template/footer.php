@@ -1,0 +1,1 @@
+<span class="lefty">&copy; 2012 TI '09. for <b><?=$this->template_ui->get_company()?></b></span><span class="righty">tugas <strong>Manajemen Proyek</strong> &bull; rendered in <b>{elapsed_time}</b></span>

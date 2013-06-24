@@ -1,0 +1,75 @@
+@CHARSET "ISO-8859-1";
+html, body {
+	color:#fff;
+	background: #0e0e0e url("../images/metro.png") bottom repeat-x fixed;
+}
+a,a:link, a:hover,a:active,a:visited {
+	color:#fff;
+}
+.ug-list:hover,.user_app,#second-bar,#rightcontent .module header,#rightcontent .module footer,.ch-table th,.contextMenu,.dragbox h2  {
+	background:#0e0e0e;
+}
+.ch-table tbody tr:hover,ul#pagination li a:hover,.dragbox h2.collapse {
+	background:#00ABA9;
+}
+ul#pagination li.active {
+	background:#008886;
+}
+
+#form-search input[type=submit]:hover,#form-search input[type=submit]:focus, ul.contextMenu li:hover a {
+	background:#008886;
+}
+#form-search input:hover,#form-search input:focus {
+	border-color: #333333;
+}
+#form-search input    { border-color: rgba(23, 51, 78, 0.15) rgba(23, 51, 78, 0.17) rgba(23, 51, 78, 0.2); }
+    
+table.det-view tr.desc,table.det-view,.ug-list,.ch-table tr th,ul#pagination li.paging_h a,.breadcrumbs, .user_app,#rightcontent .module,.ch-table,.dragbox, ul.last-act li {
+	border:1px solid #333333;
+}
+ul#pagination li.active,ul#pagination li a, ul.contextMenu, ul.dash-alert li {
+	border:1px solid #333333;
+	color:#fff;
+}
+.ch-table tr td{
+	border-left:1px solid #333333;
+}
+
+table.det-view h1,#second-bar,#rightcontent .module header,.ch-form legend, table.log-info tr td {
+	border-bottom:1px solid #333333;
+}
+.footer-section,#rightcontent .module footer {
+	border-top:1px solid #333333;
+}
+ul.context-menu a {
+	color:#f4af03;
+}
+.style-what {
+	border-bottom:1px dashed #333333;
+}
+.ch-table tr.odd {
+	background:#0e0e0e;
+}
+.ch-table tr.even {
+	background:#1e1e1e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

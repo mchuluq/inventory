@@ -1,0 +1,143 @@
+@CHARSET "ISO-8859-1";
+@CHARSET "ISO-8859-1";
+l,ul {list-style:none}
+blockquote,q {quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after {content:'';content:none;}
+:focus {outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+html, div, map, dt, isindex, form, header, aside, section, section, article, footer {display: block;}
+a,a:link, a:hover,a:active,a:visited {color:#000;text-decoration:none;}
+html, body {
+	height: 100%;
+	margin: 0;	
+	padding: 0;	
+	font-size: 11px;	
+	font-family:'Century Gothic', sans-serif;
+	color:#000;
+	text-shadow:0px 1px 1px rgba(0, 0, 0, 0.2);
+	background:url(../images/flowers-right.png) no-repeat fixed right;
+}
+#head-bar,.login-shield header {
+	background: #e3e3e3;
+    background: #e3e3e3 linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0));
+    background: #e3e3e3 -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.8)), to(rgba(255,255,255,0)));
+    background: #e3e3e3 -moz-linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0));
+    background: #e3e3e3 -o-linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0));
+    background: #e3e3e3 -ms-linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0));
+}
+.login-shield input[type=submit]:hover,button.re-log:hover {
+	background: #F0731A;
+	background-image: linear-gradient(#F0731A, #e24b17);
+	background-image: -moz-linear-gradient(#F0731A, #e24b17);
+	background-image: -0-linear-gradient(#F0731A, #e24b17);
+	background-image: -webkit-linear-gradient(#F0731A, #e24b17);
+    color:white;
+}
+.zone {
+	background: url(../images/gate-bg.png);
+}
+#head-bar {
+	min-height:50px;
+	width:100%;
+	margin:auto;
+	border-bottom:1px solid #c5c5c5;
+}
+#signin-form {
+	text-align:right;
+	width:40%;
+	float:right;
+	margin:20px 10px auto auto;
+}
+#main-container {
+	width:960px;
+	margin:20px auto auto auto;
+	padding:5px;
+}
+.zone{
+	margin-right:5px;
+	min-height:500px;
+	float:left;
+}
+#empty-zone {
+	width:665px;
+	border:1px solid #c5c5c5;
+	text-indent:15px;
+}
+#signup-zone {
+	width:280px;
+	border:1px solid #c5c5c5;
+}
+#signup-form table td {
+	padding:5px;
+}
+/*----------login gate --------*/
+#login-container {
+	width:400px;
+	margin:10% auto auto auto;
+	padding:5px;
+}
+.login-shield {
+	width:100%;
+	border:1px solid #c5c5c5;
+	border-radius:3px;
+}
+.login-shield table{
+	width:100%;
+}
+.login-shield table td{
+	padding:3px;
+}
+.login-shield input[type=text],.login-shield input[type=password]{
+	width:98%;
+	padding:5px;
+	border:1px solid #ccc;
+	border-radius:2.5px;
+	box-shadow: 0 1px 0 rgba(8, 22, 37, 0.02) inset, 0 0 2px rgba(8, 22, 37, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.login-shield input[type=submit],button.re-log{
+	padding:5px;
+	border:1px solid #ccc;
+	border-radius:2.5px;
+	box-shadow: 0 1px 0 rgba(8, 22, 37, 0.02) inset, 0 0 2px rgba(8, 22, 37, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+#alert{
+	margin:5px 0;
+	width:auto;
+	height:32px;
+	background:#F3D9D9 url(../images/chraven-alert/bullet_error.png) no-repeat left;
+	-moz-animation: chv-error 1s infinite;	
+	-webkit-animation: chv-error 1s infinite;
+	border:1px solid #D20009;
+	padding:5px 5px 5px 35px;
+	border-radius:3px;
+	text-align:left;
+}
+.error-shield {
+	text-align:center;
+}
+.log_stat {
+	display:block;
+	padding:10px 10px 10px 35px;
+	margin-bottom:5px;
+	border-radius:3px;	
+	background:#E2F6C5 url(../images/chraven-alert/bullet_success.png) no-repeat left;
+	-moz-animation: chv-success 1s infinite;	
+	-webkit-animation: chv-success 1s infinite;
+	border:1px solid #79C20D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

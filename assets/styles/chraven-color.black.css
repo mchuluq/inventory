@@ -1,0 +1,97 @@
+@CHARSET "ISO-8859-1";
+html, body {
+	color:#fff;
+	text-shadow:0px 1px 1px rgba(0, 0, 0, 0.2);
+	background:url('../images/black.png');
+}
+a,a:link, a:hover,a:active,a:visited {
+	color:#fff;
+}
+.ug-list:hover,.user_app,#second-bar,#rightcontent .module header,#rightcontent .module footer,.ch-table th,.contextMenu,.dragbox h2  {
+	background-color: #272727;
+	background-image: url('../images/textures/glass.png');
+ 	background-image: none, -webkit-linear-gradient(top, rgba(255,255,255,.12) 0%, rgba(255,255,255,.08) 50%, rgba(255,255,255,.05) 51%, rgba(255,255,255,.0) 100%);
+  	background-image: none, -moz-linear-gradient(top, rgba(255,255,255,.12) 0%, rgba(255,255,255,.08) 50%, rgba(255,255,255,.05) 51%, rgba(255,255,255,.0) 100%);
+  	background-image: none, -o-linear-gradient(top, rgba(255,255,255,.12) 0%, rgba(255,255,255,.08) 50%, rgba(255,255,255,.05) 51%, rgba(255,255,255,.0) 100%);
+  	background-image: none, linear-gradient(to bottom, rgba(255,255,255,.12) 0%, rgba(255,255,255,.08) 50%, rgba(255,255,255,.05) 51%, rgba(255,255,255,.0) 100%);
+}
+.ch-table tbody tr:hover,ul#pagination li a:hover,.dragbox h2.collapse {
+	background-color: #3d3d3d;
+  	background-image: url('../images/textures/glass.png');
+  	background-image: none, -webkit-linear-gradient(top, rgba(255,255,255,.12) 0%, rgba(255,255,255,.20) 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.07) 100%);
+  	background-image: none, -moz-linear-gradient(top, rgba(255,255,255,.12) 0%, rgba(255,255,255,.20) 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.07) 100%);
+  	background-image: none, -o-linear-gradient(top, rgba(255,255,255,.12) 0%, rgba(255,255,255,.20) 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.07) 100%);
+  	background-image: none, linear-gradient(to bottom, rgba(255,255,255,.12) 0%, rgba(255,255,255,.20) 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.07) 100%);
+  	-webkit-box-shadow: none;
+  	box-shadow: none;
+}
+ul#pagination li.active {
+	background: #0066CC;
+	color:white;
+}
+
+#form-search input[type=submit]:hover,#form-search input[type=submit]:focus, ul.contextMenu li:hover a {
+	background: #0066CC;
+    color:white;
+}
+#form-search input:hover,#form-search input:focus {
+	border-color: #0066CC;
+}
+#form-search input    { border-color: rgba(23, 51, 78, 0.15) rgba(23, 51, 78, 0.17) rgba(23, 51, 78, 0.2); }
+    
+table.det-view tr.desc,table.det-view,.ug-list,.ch-table tr th,ul#pagination li.paging_h a,.breadcrumbs, .user_app,#rightcontent .module,.ch-table,.dragbox, ul.last-act li {
+	border:1px solid  #2b2b2b;
+}
+ul#pagination li.active, ul.contextMenu, ul.dash-alert li {
+	border:1px solid  #2b2b2b;
+}
+.ch-table tr td{
+	border-left:1px solid  #2b2b2b;
+}
+
+table.det-view h1,#second-bar,#rightcontent .module header,.ch-form legend, table.log-info tr td {
+	border-bottom:1px solid  #2b2b2b;
+}
+.footer-section,#rightcontent .module footer {
+	border-top:1px solid  #2b2b2b;
+}
+.breadcrumbs, #leftsider #k-panel ,.user_app,#rightcontent .module, ul.contextMenu,.dragbox{
+	border-radius:3px;
+}
+#rightcontent .module header, ul.contextMenu li:firstchild a{
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+}
+#rightcontent .module footer, ul.contextMenu li:lastchild a{
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+}
+.style-what {
+	border-bottom:1px dashed  #2b2b2b;
+}
+.ch-table tr.odd {
+	background:#525252;
+}
+.ch-table tr.even,.module,.dragbox {
+	background:#3d3d3d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

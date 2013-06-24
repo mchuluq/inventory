@@ -1,0 +1,92 @@
+@CHARSET "ISO-8859-1";
+.ug-list:hover,.user_app,#second-bar,#rightcontent .module header,#rightcontent .module footer,.ch-table th,.contextMenu,.dragbox h2  {
+	background: #e3e3e3;
+    background: #e3e3e3 linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0));
+    background: #e3e3e3 -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.8)), to(rgba(255,255,255,0)));
+    background: #e3e3e3 -moz-linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0));
+    background: #e3e3e3 -o-linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0));
+    background: #e3e3e3 -ms-linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0));
+}
+.ch-table tbody tr:hover,ul#pagination li a:hover,.dragbox h2.collapse {
+	background: #A99F9A;
+    background: #A99F9A linear-gradient(top, #A99F9A, rgba(255,255,255,0));
+    background: #A99F9A -webkit-gradient(linear, left top, left bottom, from(#A99F9A), to(rgba(255,255,255,0)));
+    background: #A99F9A -moz-linear-gradient(top, #A99F9A, rgba(255,255,255,0));
+    background: #A99F9A -o-linear-gradient(top, #A99F9A, rgba(255,255,255,0));
+    background: #A99F9A -ms-linear-gradient(top, #A99F9A, rgba(255,255,255,0));
+}
+ul#pagination li.active {
+	background: #ef6f1c;
+	color:white;
+}
+
+#form-search input[type=submit]:hover,#form-search input[type=submit]:focus, ul.contextMenu li:hover a {
+	background: #F0731A;
+	background-image: linear-gradient(#F0731A, #e24b17);
+	background-image: -moz-linear-gradient(#F0731A, #e24b17);
+	background-image: -0-linear-gradient(#F0731A, #e24b17);
+	background-image: -webkit-linear-gradient(#F0731A, #e24b17);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 0 0 1px rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(23, 51, 78, 0.03);
+    color:white;
+}
+#form-search input:hover,#form-search input:focus {
+	border-color: #F0731A;
+}
+#form-search input    { border-color: rgba(23, 51, 78, 0.15) rgba(23, 51, 78, 0.17) rgba(23, 51, 78, 0.2); }
+    
+table.det-view tr.desc,table.det-view,.ug-list,.ch-table tr th,ul#pagination li.paging_h a,.breadcrumbs, .user_app,#rightcontent .module,.ch-table,.dragbox, ul.last-act li {
+	border:1px solid #c5c5c5;
+}
+ul#pagination li.active, ul.contextMenu, ul.dash-alert li {
+	border:1px solid #A99F9A;
+}
+.ch-table tr td{
+	border-left:1px solid #c5c5c5;
+}
+
+table.det-view h1,#second-bar,#rightcontent .module header,.ch-form legend, table.log-info tr td {
+	border-bottom:1px solid #c5c5c5;
+}
+.footer-section,#rightcontent .module footer {
+	border-top:1px solid #c5c5c5;
+}
+.breadcrumbs, #leftsider #k-panel ,.user_app,#rightcontent .module, ul.contextMenu,.dragbox{
+	border-radius:3px;
+}
+#rightcontent .module header, ul.contextMenu li:firstchild a{
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+}
+#rightcontent .module footer, ul.contextMenu li:lastchild a{
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+}
+.style-what {
+	border-bottom:1px dashed #c5c5c5;
+}
+.ch-table tr.odd {
+	background:#ffffff;
+}
+.ch-table tr.even {
+	background:#f5f5f5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

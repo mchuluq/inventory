@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+html, body {
+	color:#fff;
+	text-shadow:0px 1px 1px rgba(0, 0, 0, 0.2);
+	background:#1b141a;
+}
+a,a:link, a:hover,a:active,a:visited {
+	color: #fff;
+}
+.ug-list:hover,.user_app,#second-bar,#rightcontent .module header,#rightcontent .module footer,.ch-table th,.contextMenu,.dragbox h2  {
+	background-color: #2c232b;
+	background-image: url('../images/textures/glass.png');
+}
+.ch-table tbody tr:hover,ul#pagination li a:hover,.dragbox h2.collapse {
+	background-image: url('../images/textures/glass.png');
+	background-color:#A7008F
+}
+ul#pagination li.active {
+	background-color:#870074;
+}
+
+#form-search input[type=submit]:hover,#form-search input[type=submit]:focus, ul.contextMenu li:hover a {
+	background-image: url('../images/textures/glass.png') repeat-x;
+	background-color:#A7008F
+}
+#form-search input:hover,#form-search input:focus {
+	border-color: #664e62;
+}
+#form-search input    { border-color: rgba(23, 51, 78, 0.15) rgba(23, 51, 78, 0.17) rgba(23, 51, 78, 0.2); }
+    
+ul#pagination li a:hover,table.det-view tr.desc,table.det-view,.ug-list,.ch-table tr th,ul#pagination li.paging_h a,.breadcrumbs, .user_app,#rightcontent .module,.ch-table,.dragbox, ul.last-act li {
+	border:1px solid #664e62;
+}
+ul#pagination li.active, ul.contextMenu, ul.dash-alert li {
+	border:1px solid #664e62;
+}
+.ch-table tr td{
+	border-left:1px solid #664e62;
+}
+
+.dragbox h2,table.det-view h1,#second-bar,#rightcontent .module header,.ch-form legend, table.log-info tr td {
+	border-bottom:1px solid #664e62;
+}
+.footer-section,#rightcontent .module footer {
+	border-top:1px solid #664e62;
+}
+.breadcrumbs, #leftsider #k-panel ,.user_app,#rightcontent .module, ul.contextMenu,.dragbox{
+	border-radius:6px;
+}
+#rightcontent .module header, ul.contextMenu li:firstchild a{
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+}
+#rightcontent .module footer, ul.contextMenu li:lastchild a{
+	border-bottom-left-radius:13px;
+	border-bottom-right-radius:13px;
+}
+.style-what {
+	border-bottom:1px dashed #664e62;
+}
+.ch-table tr.odd {
+	background:#1b141a;
+}
+.ch-table tr.even,.module,.dragbox {
+	background:#2c232b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
